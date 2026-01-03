@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Design By Aiman</h1>
+   
+    <button><a href="index.html" >Neck</a></button>
+    <input type="text" id="searchbar" placeholder="search">
+</header>
+
+        <section>
+
+<div class="card-container">
+
+   <div class="card">
+<img src="n1.jpg" >
+<p>Neck1</p>
+<button><a href="n1.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n2.jpg" >
+<p>Neck2</p>
+<button><a href="n2.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n3.jpg" >
+<p>Neck3</p>
+<button><a href="n3.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n4.jpg" >
+<p>Neck4</p>
+<button><a href="n4.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n5.jpg" >
+<p>Neck5</p>
+<button><a href="n5.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n6.jpg" >
+<p>Neck6</p>
+<button><a href="n6.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n7.jpg" >
+<p>Neck7</p>
+<button><a href="n7.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n8.jpg" >
+<p>Neck8</p>
+<button><a href="n8.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n9.jpg" >
+<p>Neck9</p>
+<button><a href="n9.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n10.jpg" >
+<p>Neck10</p>
+<button><a href="n10.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n11.jpg" >
+<p>Neck11</p>
+<button><a href="n11.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n12.jpg" >
+<p>Neck12</p>
+<button><a href="n12.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n13.jpg" >
+<p>Neck13</p>
+<button><a href="n13.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n14.jpg" >
+<p>Neck14</p>
+<button><a href="n14.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n15.jpg" >
+<p>Neck15</p>
+<button><a href="n15.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n16.jpg" >
+<p>Neck16</p>
+<button><a href="n16.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n17.jpg" >
+<p>Neck17</p>
+<button><a href="n17.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n18.jpg" >
+<p>Neck18</p>
+<button><a href="n18.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n19.jpg" >
+<p>Neck19</p>
+<button><a href="n19.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n20.jpg" >
+<p>Neck20</p>
+<button><a href="n20.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n21.jpg" >
+<p>Neck21</p>
+<button><a href="n21.jpg">See Full Image</a></button>
+</div>
+<div class="card">
+<img src="n22.jpg" >
+<p>Neck22</p>
+<button><a href="n22.jpg">See Full Image</a></button>
+</div>
+</div>
+
+
+</section>
+<script src="jquery.js"></script>
+<script>
+$("#searchbar").keyup(function(){
+var searchtext = $(this).val().toLowerCase();//am
+$(".card").filter(function(){
+var cardtext = $(this).text().toLowerCase();
+if 
+(cardtext.indexOf(searchtext)>-1){
+$(this).show()
+}
+else
+$(this).hide()
+})
+})
+</script>
+</body>
+</html>
